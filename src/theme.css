@@ -1,0 +1,42 @@
+:root {
+  /* Spacing */
+  --unit: 0.5rem;
+  --xs: calc(var(--unit) * 1);
+  --s: calc(var(--unit) * 1.5);
+  --m: calc(var(--unit) * 3);
+  --b: calc(var(--unit) * 4);
+  --l: calc(var(--unit) * 5);
+  --xl: calc(var(--unit) * 6);
+
+  /* Z index */
+  --low: 1;
+  --medium: 2;
+  --high: 3;
+
+  /* Typography */
+  --body-font-family: Roboto, 'Helvetica Neue', sans-serif;
+  --title-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /* Palette */
+  --background-color: white;
+  --on-background-color: hsl(226, 8%, 60%);
+
+  --primary-color: hsl(180, 100%, 39%);
+  --on-primary-color: white;
+
+  --secondary-color: hsl(96, 58%, 43%);
+  --on-secondary-color: white;
+
+  --tertiary-color: hsl(39, 100%, 47%);
+  --on-tertiary-color: white;
+
+  --accent-color: hsl(161, 57%, 26%);
+  --on-accent-color: white;
+
+  --error-color: hsla(0, 100%, 38%, 0.94);
+  --on-error-color: white;
+
+  --success-color: hsla(104, 100%, 32%, 0.94);
+  --on-success-color: white;
+}
